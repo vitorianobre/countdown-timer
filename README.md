@@ -32,7 +32,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto
 
-Live Preview: #
+Live Preview: https://countdown-timer-khaki.vercel.app/
 
 <h3 align="center"><strong>Desktop</strong></h3>
 <img src="assets/preview-desktop.png" style="max-height: 400px;">
