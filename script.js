@@ -22,12 +22,12 @@ setInterval(function () {
 
 function sendEmail() {
     // Add email Local Storage
-    /*let emailUsuario = document.getElementById('input-email').value;
+    let emailUsuario = document.getElementById('input-email').value;
     window.localStorage.setItem('emailUsuario', JSON.stringify(emailUsuario));
 
     console.log(JSON.parse(window.localStorage.getItem('emailUsuario')));
 
-    document.getElementById('input-email').value = "";*/
+    document.getElementById('input-email').value = "";
 }
 
 // Menu Hamburger
