@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width:880px)">
+    
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.jpg" alt="Logo Ada Festival" id="logo">
+        <div class="menu-section">
+            <div class="menu-toggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+        </div>
+        <nav>
+            <a href="#">Coming Soon</a>
+            <a href="#">About</a>
+            <a href="#">Pricing</a>
+            <a href="#">Extensions</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="countdown">
+            <div id="container-days" class="container">
+                <p>Days</p>
+                <p id="days-left" class="numbers"></p>
+            </div>
+            <div id="container-hours" class="container">
+                <p>Hours</p>
+                <p id="hours-left" class="numbers"></p>
+            </div>
+            <div id="container-minutes" class="container">
+                <p>Minutes</p>
+                <p id="minutes-left" class="numbers"></p>
+            </div>
+            <div id="container-seconds" class="container">
+                <p>Seconds</p>
+                <p id="seconds-left" class="numbers"></p>
+            </div>
+        </section>
+        <section id="container-subscribe">
+            <p>Subscribe to receive a notification when we lauch the tickets.</p>
+            <div id="subscribe">
+                <input type="email" name="" id="input-email">
+                <button type="submit" onclick="sendEmail()">Subscribe</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#" target="_blank"><img src="assets/facebook.png" alt="Logo Facebook"></a>
+        <a href="#" target="_blank"><img src="assets/twitter.png" alt="Logo Twitter"></a>
+        <a href="#" target="_blank"><img src="assets/linkedin.png" alt="Logo Linkedin"></a>
+        <a href="#" target="_blank"><img src="assets/instagram.png" alt="Logo Instagram"></a>
+        <a href="#" target="_blank"><img src="assets/youtube.png" alt="Logo Youtube"></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

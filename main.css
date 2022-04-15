@@ -1,0 +1,63 @@
+#countdown {
+    max-width: 100vw;
+    margin: 0 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.numbers {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+#container-subscribe {
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#subscribe {
+    margin-top: 10px;
+    padding: 1px;
+    height: 50x;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button {
+    width: 120px;
+    background-color: #2D5EFD;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #718ff1;
+}
