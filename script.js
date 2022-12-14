@@ -1,4 +1,4 @@
-var dateEvent = new Date("Dec 28, 2022 19:00:00").getTime();
+var dateEvent = new Date("Dec 28, 2024 19:00:00").getTime();
 
 var containerDays = document.getElementById('days-left');
 var containerHours = document.getElementById('hours-left');
